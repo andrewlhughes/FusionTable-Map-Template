@@ -339,6 +339,7 @@ self.whereClause += " AND " + searchType.slice(0, searchType.length - 1) + ")";
               <br />\
               " + data[row][2] + "\
               <br />\
+              " + data[row][3] + "\
             </div>\
           </div>";
         results.append(template);

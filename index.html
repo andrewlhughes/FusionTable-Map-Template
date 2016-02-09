@@ -44,7 +44,7 @@
             <p>
               <input class='form-control' id='search_address' placeholder='Enter an address or an intersection' type='text' />
             </p>
-            <p>
+           <!-- <p>
               <label>
                 within
                 <select id='search_radius'>
@@ -53,7 +53,7 @@
               </label>
             </p>
 
-            <h4>
+            <h4> -->
 <!--   Recycling services
 </h4>
 <ul class='inputs-list unstyled'>
@@ -120,7 +120,8 @@
             locationColumn:     "Host Address",
             map_center:         [35.481918, -97.508469],
             locationScope:      "",
-	    defaultZoom:	4	
+	    defaultZoom:	4
+	    searchRadius	144900
           });
 
           var autocomplete = new google.maps.places.Autocomplete(document.getElementById('search_address'));

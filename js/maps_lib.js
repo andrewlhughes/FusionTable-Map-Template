@@ -303,6 +303,7 @@ self.whereClause += " AND " + searchType.slice(0, searchType.length - 1) + ")";
         });
         $("#result_box").fadeIn();
     };
+    
     MapsLib.prototype.getList = function(whereClause) {
     var self = this;
     var selectColumns = 'Offering ID, Host Venue, Host Address ';
@@ -338,8 +339,6 @@ self.whereClause += " AND " + searchType.slice(0, searchType.length - 1) + ")";
               " + data[row][1] + "\
               <br />\
               " + data[row][2] + "\
-              <br />\
-              " + data[row][3] + "\
             </div>\
           </div>";
         results.append(template);

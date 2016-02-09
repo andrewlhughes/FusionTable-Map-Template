@@ -307,7 +307,7 @@ self.whereClause += " AND " + searchType.slice(0, searchType.length - 1) + ")";
     
     MapsLib.prototype.getList = function(whereClause) {
     var self = this;
-    var selectColumns = 'Offering ID, Host Venue, Host Address ';
+    var selectColumns = '"Offering ID", "Host Venue", "Host Address" ';
 
     self.query({ 
       select: selectColumns, 

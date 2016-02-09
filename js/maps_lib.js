@@ -302,7 +302,7 @@
     
     MapsLib.prototype.getList = function(whereClause) {
     var self = this;
-    var selectColumns = 'OfferingID, Venue, Address';
+    var selectColumns = '"Offering ID", "Host Venue", "Host Address"';
 
     self.query({ 
       select: selectColumns, 

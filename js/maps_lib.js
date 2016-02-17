@@ -332,9 +332,11 @@
             <div class='span12'>\
               <strong>" + data[row][0] + "</strong>\
               <br />\
+              " + data[row][1] + "\
+              <br />\
               " + data[row][2] + "\
               <br />\
-              " + data[row][1] + "\
+              " + data[row][3] + "\
             </div>\
           </div>";
         results.append(template);

@@ -334,7 +334,7 @@
               <br />\
               " + data[row][2] + "\
               <br />\
-              " + data[row][1] + "\    
+              " + data[row][1] + "\
             </div>\
           </div>";
         results.append(template);

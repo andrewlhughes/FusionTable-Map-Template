@@ -330,7 +330,7 @@
         template = "\
           <div class='row-fluid item-list'>\
             <div class='span12'>\
-              <strong>" + data[row][0 + 2] + "</strong>\
+              <strong>" + data[row][0] + "</strong>\
               <br />\
               " + data[row][2] + "\
               <br />\

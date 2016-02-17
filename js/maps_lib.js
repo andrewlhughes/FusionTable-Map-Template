@@ -330,9 +330,9 @@
         template = "\
           <div class='row-fluid item-list'>\
             <div class='span12'>\
-              <strong>" + data[row][0] + "</strong>\
+              <strong>" + data[row][1] + "</strong>\
               <br />\
-              " + data[row][1] + "\
+              " + data[row][0] + "\
             </div>\
           </div>";
         results.append(template);

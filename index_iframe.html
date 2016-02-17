@@ -33,10 +33,11 @@
           <label>&nbsp;
             within&nbsp;
             <select id='search_radius'>
-              <option value='400'>2 blocks</option>
-              <option value='805'>1/2 mile</option>
-              <option value='1610'>1 mile</option>
-              <option value='3220'>2 miles</option>
+              <option value='16100'>10 miles</option>
+              <option value='48300'>30 miles</option>
+              <option value='96600'>60 miles</option>
+              <option value='144900'>90 miles</option>
+              <option value='193200'>120 miles</option>
             </select>
           </label>
           </div>
@@ -77,11 +78,14 @@
         $(function() {
           
           var myMap = new MapsLib({
-            fusionTableId:      "1m4Ez9xyTGfY2CU6O-UgEcPzlS0rnzLU93e4Faa0",
-            googleApiKey:       "AIzaSyA3FQFrNr5W2OEVmuENqhb2MBB2JabdaOY",
-            locationColumn:     "geometry",
-            map_center:         [41.8781136, -87.66677856445312],
-            locationScope:      "chicago"
+            fusionTableId:      "1MFgDHvOd1YnpFNVAqzNp9TOjBQ_htNfwqftCVGIm",
+            googleApiKey:       "AIzaSyAwu9kJJdDi00QKMZcURqfp7VFP3yOAw6Q",
+            locationColumn:     "Address",
+            recordName:         "Location",
+            recodNamePlural:	  "Locations",
+            map_center:         [35.481918, -97.508469],
+            defaultZoom:        4,
+            searchRadius:	      144900,
           });
 
           

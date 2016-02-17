@@ -332,7 +332,7 @@
             <div class='span12'>\
               <strong>" + data[row][0] + "</strong>\
               <br />\
-              " Venue: + data[row][1] + "\
+              " + data[row][1] + "\
             </div>\
           </div>";
         results.append(template);

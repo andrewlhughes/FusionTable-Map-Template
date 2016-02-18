@@ -302,7 +302,7 @@
     
     MapsLib.prototype.getList = function(whereClause) {
     var self = this;
-    var selectColumns = 'Venue, Address, Date';
+    var selectColumns = 'Venue, Address, Date, OfferingID';
 
     self.query({ 
       select: selectColumns, 
@@ -333,6 +333,8 @@
               <strong>" + data[row][0] + ' - ' + data[row][2] + "</strong>\
               <br />\
               <small>" + data[row][1] + "</small>\
+              <br />\
+              " + data[row][3] + "\
               <br />\
             </div>\
           </div>";

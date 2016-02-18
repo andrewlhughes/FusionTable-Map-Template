@@ -332,7 +332,7 @@
             <div class='span12'>\
               <strong>" + data[row][0] + ' - ' + data[row][2] + "</strong>\
               <br />\
-              " + data[row][1] + "\
+              <small>" + data[row][1] + "</small>\
               <br />\
             </div>\
           </div>";
